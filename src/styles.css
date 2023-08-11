@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+:root{
+    --color-gray:#b5b5b5;
+    --color-red:#f87884;
+    --color-pink:#fcf3f8;
+    --color-black:#000000;
+    --color-purple:#e2d1f6;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to bottom, #fcf3f8, #e2d1f6);
+}
